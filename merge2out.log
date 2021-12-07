@@ -1,0 +1,33 @@
+Choices:
+Host architecture:     x86_64
+Target architecture:   x86_64
+Compatible-distro:     ubuntu
+Compat-distro version: focal64
+
+
+Copying woof-code/*...
+Copying woof-arch/x86_64/build/*...
+Copying woof-arch/x86_64/target/*
+Copying kernel-kit, initrd-progs...
+
+Copying woof-distro/x86_64/ubuntu/*...  (files all levels)
+Copying woof-distro/x86_64/ubuntu/focal64/*...
+    woof-distro/Packages-puppy-noarch-official
+    woof-distro/x86_64/Packages-puppy-common64-official
+    woof-distro/x86_64/ubuntu/Packages-puppy-tahr64-official
+    woof-distro/x86_64/ubuntu/focal64/_00build.conf
+    woof-distro/x86_64/ubuntu/focal64/Packages-puppy-fossa64-official
+    woof-distro/x86_64/ubuntu/focal64/PKGS_MANAGEMENT
+    woof-distro/x86_64/ubuntu/focal64/DISTRO_PKGS_SPECS-ubuntu-focal
+    woof-distro/x86_64/ubuntu/focal64/DISTRO_COMPAT_REPOS-ubuntu-focal
+    woof-distro/x86_64/ubuntu/focal64/DISTRO_PET_REPOS
+    woof-distro/x86_64/ubuntu/focal64/DISTRO_SPECS
+
+Copying woof-distro/x86_64/ubuntu/focal64/support...
+    big-rootfs-packages.conf
+    rootfs-packages.conf
+
+Undoing VCS-friendly stuff...
+'woof-arch/x86_64/build/support/debdb2pupdb' -> '../woof-out_x86_64_x86_64_ubuntu_focal64/rootfs-skeleton/usr/local/petget/debdb2pupdb'
+'woof-arch/x86_64/build/support/find_cat' -> '../woof-out_x86_64_x86_64_ubuntu_focal64/rootfs-skeleton/usr/local/petget/find_cat'
+'woof-arch/x86_64/target/rootfs-skeleton/usr/sbin/pngoverlay-cairo' -> '../woof-out_x86_64_x86_64_ubuntu_focal64/support/pngoverlay-cairo'

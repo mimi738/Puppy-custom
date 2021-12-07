@@ -1,0 +1,23 @@
+#!/bin/ash
+#(c) Copyright Barry Kauler Nov. 2010. License GPL v3 /usr/share/doc/legal.
+
+#wait for snd_ modules to complete loading...
+#this sleep benefits all slow peripherals.
+sleep 6
+
+for service_script in /etc/init.d/*
+do
+ if [ -x $service_script ]; then
+  #Check if the script contains dbus-daemon
+  if [ "$(cat $service_script | grep "dbus-daemon")" == "" ]; then
+   $service_script start
+  elif [ "$(pidof dbus-daemon)" == "" ]; then
+   #run dbus-daemon script if the dbus-daemon is not running
+   $service_script start
+  fi
+ fi
+done
+
+unset service_script
+
+###END###

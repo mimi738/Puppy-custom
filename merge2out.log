@@ -28,6 +28,24 @@ Copying woof-distro/x86_64/ubuntu/focal64/support...
     rootfs-packages.conf
 
 Undoing VCS-friendly stuff...
+boot
+boot
+initrd-progs
+initrd-progs
+kernel-kit
+kernel-kit
+packages-templates
+packages-templates
+rootfs-packages
+rootfs-packages
+rootfs-petbuilds
+rootfs-petbuilds
+rootfs-skeleton
+rootfs-skeleton
+support
+support
+huge_kernel
+huge_kernel
 'woof-arch/x86_64/build/support/debdb2pupdb' -> '../woof-out_x86_64_x86_64_ubuntu_focal64/rootfs-skeleton/usr/local/petget/debdb2pupdb'
 'woof-arch/x86_64/build/support/find_cat' -> '../woof-out_x86_64_x86_64_ubuntu_focal64/rootfs-skeleton/usr/local/petget/find_cat'
 'woof-arch/x86_64/target/rootfs-skeleton/usr/sbin/pngoverlay-cairo' -> '../woof-out_x86_64_x86_64_ubuntu_focal64/support/pngoverlay-cairo'

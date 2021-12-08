@@ -172,4 +172,3 @@ If you have built a "huge" style kernel with kernel-kit then place the package i
 Regards,
 Barry Kauler
 puppylinux.com
-# Puppy-custom
